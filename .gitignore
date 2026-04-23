@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Django
+db.sqlite3
+media/
+staticfiles/
+*/migrations/
+!*/migrations/__init__.py
+
+# Environment files
+.env
+.env.*
+
+# Test and coverage
+.coverage
+.pytest_cache/
+htmlcov/
+
+# IDEs and editors
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
+# Kilo local artifacts
+.kilo/tmp/
